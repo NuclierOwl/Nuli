@@ -7,7 +7,7 @@
         Peredvizenie(n);
         Console.WriteLine("Итоговый массив: " + string.Join(" ", n));
     }
-    public static int[] Peredvizenie(int[] nums) // пернгонщик нулей в конец
+    public static int[] Peredvizenie(int[] nums) // перегонщик нулей в конец
     {
         int poslednee = 0;
         for (int i = 0; i < nums.Length; i++) // перенос всего что не "0" в начало
